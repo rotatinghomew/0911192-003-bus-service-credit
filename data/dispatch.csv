@@ -1,0 +1,5 @@
+ticket,trip,from_piece,to_piece,accountable,at,received,state
+j1,T41,p1,p2,甲,2026-06-04T00:05:00+08:00,2026-06-04,candidate
+j2,T42,p3,p2,乙,2026-06-04T00:05:00+08:00,2026-06-04,candidate
+j3,T41,p1,p2,乙,2026-06-04T00:05:00+08:00,2026-07-03,verified
+j4,T43,,,,2026-06-04T00:13:00+08:00,2026-06-04,cancelled

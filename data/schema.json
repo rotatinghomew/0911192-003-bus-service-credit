@@ -1,0 +1,65 @@
+{
+  "tables": {
+    "timetable": [
+      "trip",
+      "day",
+      "carrier",
+      "origin_time",
+      "stops"
+    ],
+    "detours": [
+      "order",
+      "approved",
+      "starts",
+      "ends",
+      "carrier",
+      "replaces",
+      "substitute"
+    ],
+    "observations": [
+      "obs",
+      "vehicle",
+      "piece",
+      "station",
+      "arrival",
+      "departure",
+      "captured"
+    ],
+    "dispatch": [
+      "ticket",
+      "trip",
+      "from_piece",
+      "to_piece",
+      "accountable",
+      "at",
+      "received",
+      "state"
+    ],
+    "device_status": [
+      "source",
+      "starts",
+      "ends",
+      "state"
+    ]
+  },
+  "references": [
+    [
+      "dispatch",
+      "trip",
+      "timetable",
+      "trip"
+    ],
+    [
+      "dispatch",
+      "from_piece",
+      "observations",
+      "piece"
+    ],
+    [
+      "dispatch",
+      "to_piece",
+      "observations",
+      "piece"
+    ]
+  ]
+}
